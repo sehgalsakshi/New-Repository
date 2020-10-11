@@ -68,12 +68,35 @@ What do you infer from it?
 What are the two main governing  factors affecting their ability to solve questions correctly? 
 Give a pictorial  representation of the same to validate your answer.
 
-Poisson or Binomial
+Using Binomial Distribution here
+For 5 correct each:
+<b>Gaurav : P(5|8) = 8!/(5!*3!) * .75**5 * .25**3<br>
+  Barkha: P(5|12) = 12!(5!* 7!) * .55**5 * .45**7</b>
+  
+
+For 4 correct each:
+<b>Gaurav : P(4|8) = 8!/(4!*3!) * .75**4 * .25**4<br>
+  Barkha: P(4|12) = 12!(4!* 8!) * .55**8 * .45**8</b>
+  
+
+For 6 correct each:
+<b>Gaurav : P(6|8) = 8!/(6!*2!) * .75**6 * .25**2<br>
+  Barkha: P(6|12) = 12!(6!* 6!) * .55**6 * .45**6</b>
+  
+  
 
 Problem Statement 7: 
 Customers arrive at a rate of 72 per hour to my shop. What is the probability of k customers arriving in 4 minutes?
 a) 5 customers, b) not more than 3 customers, c)  more than 3 customers. Give a pictorial representation of the same to validate your  answer. 
 
+Poisson Distribution
+avg in 1 hour = 72
+avg in 1 min = 72/60
+avg in 4 min = 4 * 72/60 = 4.8
+
+a. P(5) = (e** (-4.8) * 4.8**5) / 5!
+b. P(0) + P(1)+ P(2) + P(3)
+c. 1- not more than 3 customers
 
 Problem Statement 8: 
 I work as a data analyst in Aeon Learning Pvt. Ltd. After analyzing data, I make  reports, where I have the efficiency of entering 77 words per minute with 6 errors per  hour. What is the probability that I will commit 2 errors in a 455-word financial report? What happens when the no. of words increases/decreases (in case of 1000 words,  255 words)?  
@@ -81,12 +104,14 @@ How is the λ affected?
 How does it influence the PMF?  
 Give a pictorial representation of the same to validate your answer. 
 
+Poisson
 
 Problem Statement 9: 
 Let the continuous random variable D denote the diameter of the hole drilled in an  aluminum sheet. The target diameter to be achieved is 12.5mm. Random  disturbances in the process often result in inaccuracy. 
 Historical data shows that the distribution of D can be modelled by the PDF, f(d) =  20e−20(d−12.5), d ≥ 12.5. If a part with diameter > 12.6 mm needs to be scrapped,  what is the proportion of those parts? What is the CDF when the diameter is of 11  mm? 
 What is the conclusion of this experiment?
-Same as q4
+
+Same as ques 4
 
 
 Problem Statement 10: 
@@ -97,7 +122,7 @@ c) Find the value of z such that P(−z < Z < z) = 0.99
 Problem Statement 11: 
 The current flow in a copper wire follow a normal distribution with a mean of 10 mA  and a variance of 4 (mA)2.  
 What is the probability that a current measurement will exceed 13 mA? What is the  probability that a current measurement is between 9 and 11mA? Determine the  current measurement which has a probability of 0.98.
-
+Z - statistics
 
 
 Problem Statement 12: 
